@@ -1,0 +1,4 @@
+kafka-console-consumer --bootstrap-server \
+localhost:9092 --topic partition_demo --from-beginning \
+--property print.partition=true \
+--property print.key=true
