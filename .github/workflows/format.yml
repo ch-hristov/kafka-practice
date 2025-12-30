@@ -1,0 +1,46 @@
+name: Auto-format Code
+
+on:
+  workflow_dispatch:  # Manual trigger
+  push:
+    branches: [ main, master ]
+    paths:
+      - 'session_5/**/*.py'
+
+jobs:
+  format:
+    name: Auto-format Code
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+    
+    - name: Install formatting tools
+      run: |
+        pip install black isort
+    
+    - name: Format code with Black
+      run: |
+        black session_5/
+    
+    - name: Sort imports with isort
+      run: |
+        isort session_5/
+    
+    - name: Commit changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add session_5/
+        git diff --staged --quiet || git commit -m "Auto-format code [skip ci]"
+        git push
+
