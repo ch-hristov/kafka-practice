@@ -19,6 +19,8 @@ c = Consumer({
 c.subscribe([TOPIC])
 print(f"Consuming from {TOPIC} as group '{GROUP}'... Ctrl+C to stop.")
 
+total_price = 0
+
 try:
     while True:
         msg = c.poll(1.0)
@@ -30,6 +32,7 @@ try:
 
         key = msg.key().decode("utf-8") if msg.key() else None
         val = json.loads(msg.value().decode("utf-8"))
+        total_price += val["price"]
         print(f"[partition={msg.partition()} offset={msg.offset()} key={key}] {val}")
 
 except KeyboardInterrupt:

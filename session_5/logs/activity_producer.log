@@ -1,0 +1,15 @@
+[2025-12-30 20:49:57] INFO     [activity_producer] Starting User Activity Event Producer
+[2025-12-30 20:50:02] INFO     [activity_producer] Producer metrics snapshot
+[2025-12-30 20:50:07] INFO     [activity_producer] Producer metrics snapshot
+[2025-12-30 20:50:12] INFO     [activity_producer] Producer metrics snapshot
+[2025-12-30 20:50:18] INFO     [activity_producer] Producer metrics snapshot
+[2025-12-30 20:50:23] INFO     [activity_producer] Producer metrics snapshot
+[2025-12-30 20:50:28] INFO     [activity_producer] Producer metrics snapshot
+[2025-12-30 20:50:33] INFO     [activity_producer] Producer metrics snapshot
+[2025-12-30 20:50:39] INFO     [activity_producer] Producer metrics snapshot
+[2025-12-30 20:50:44] INFO     [activity_producer] Producer metrics snapshot
+[2025-12-30 20:50:49] INFO     [activity_producer] Producer metrics snapshot
+[2025-12-30 20:50:54] INFO     [activity_producer] Producer metrics snapshot
+[2025-12-30 20:50:57] INFO     [activity_producer] Stopping producer...
+[2025-12-30 20:50:57] INFO     [activity_producer] Flushing remaining messages...
+[2025-12-30 20:50:57] INFO     [activity_producer] Producer stopped

@@ -1,0 +1,18 @@
+[2025-12-30 20:48:02] INFO     [analytics_processor] Starting Analytics Processor
+[2025-12-30 20:48:04] INFO     [analytics_processor] Stopping consumer...
+[2025-12-30 20:48:04] INFO     [analytics_processor] Consumer closed
+[2025-12-30 20:48:16] INFO     [analytics_processor] Starting Analytics Processor
+[2025-12-30 20:48:21] INFO     [analytics_processor] Stopping consumer...
+[2025-12-30 20:48:21] INFO     [analytics_processor] Consumer closed
+[2025-12-30 20:49:30] INFO     [analytics_processor] Starting Analytics Processor
+[2025-12-30 20:49:31] ERROR    [analytics_processor] Consumer error
+[2025-12-30 20:49:40] INFO     [analytics_processor] Stopping consumer...
+[2025-12-30 20:49:40] INFO     [analytics_processor] Consumer closed
+[2025-12-30 20:50:10] INFO     [analytics_processor] Starting Analytics Processor
+[2025-12-30 20:50:13] INFO     [analytics_processor] Analytics metrics snapshot
+[2025-12-30 20:50:13] INFO     [analytics_processor] Analytics metrics snapshot
+[2025-12-30 20:50:13] INFO     [analytics_processor] Analytics metrics snapshot
+[2025-12-30 20:50:18] INFO     [analytics_processor] Analytics metrics snapshot
+[2025-12-30 20:50:22] INFO     [analytics_processor] Stopping consumer...
+[2025-12-30 20:50:22] INFO     [analytics_processor] Analytics processor stopped
+[2025-12-30 20:50:22] INFO     [analytics_processor] Consumer closed
